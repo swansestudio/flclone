@@ -23,14 +23,16 @@ This command converts the `audio.wav` file to FLAC and retains its original crea
 ```
 python flclone.py audio.aif timestamp.txt
 ```
+This command converts the `audio.aif` file to FLAC and clones the creation and modification timestamps from `timestamp.txt`.
 ```
-python flclone.py audio.aif timestamp.wav
+python flclone.py audio.wav timestamp.wav
 ```
+This command converts the `audio.wav` file to FLAC and clones the creation and modification timestamps from `timestamp.wav`.
 
 Using the timestamp from another file can be useful in cases where you’ve edited the source file but still want to retain the timestamp from when it was recorded. 
 This can also apply if you’ve re-recorded a new file, but it’s important to maintain the timestamp of the original file that was recorded in the past.
 
-This command converts the `audio.mp3` file to FLAC and clones the creation and modification timestamps from `timestamp.txt`.
+
 
 ## Note
 
