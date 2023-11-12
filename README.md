@@ -39,3 +39,17 @@ This can also apply if you’ve re-recorded a new file, but it’s important to 
 - Only handling up to two arguments is supported.
 - Use the script responsibly and ensure compliance with the licenses of the audio files you are converting.
 
+# flclone Installation Guide
+
+Before using **flclone.py**, you need to ensure that you have Python and the necessary library installed on your system. Here are the steps:
+
+## Step 1: Install Python
+
+You can download Python from the official website: https://www.python.org/downloads/. Make sure to add Python to your PATH during the installation process.
+
+## Step 2: Install the Required Library
+
+**flclone.py** requires the `pydub` library. You can install it using pip, which is a package manager for Python. Open your command prompt or terminal and type the following command:
+
+```python
+pip install pydub
